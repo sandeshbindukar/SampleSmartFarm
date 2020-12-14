@@ -3,7 +3,6 @@
 ?>
 
 <section class="w3l-features-4">
-        <!-- /features -->
         <div class="features py-5" id="features">
             <div class="container py-md-3">
                 <div class="heading text-center mx-auto">

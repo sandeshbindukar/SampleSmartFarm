@@ -49,12 +49,12 @@
             </div>
         </div>
     </div>
-    <!-- move top -->
+   
     <button onclick="topFunction()" id="movetop" title="Go to top">
 <span class="fa fa-angle-up"></span>
 </button>
     <script>
-        // When the user scrolls down 20px from the top of the document, show the button
+
         window.onscroll = function() {
             scrollFunction()
         };
@@ -67,7 +67,6 @@
             }
         }
 
-        // When the user clicks on the button, scroll to the top of the document
         function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
@@ -92,13 +91,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 </script>
 
-<!-- Template JavaScript -->
 <script src="assets/js/all.js"></script>
-<!-- Smooth scrolling -->
-
 <script src="assets/js/owl.carousel.js"></script>
-
-
 <script>
     $(document).ready(function() {
         $('.owl-one').owlCarousel({
